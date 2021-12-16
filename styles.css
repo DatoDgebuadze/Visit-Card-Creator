@@ -20,3 +20,24 @@ body{
 .satauri span{
     color: #467aff;
 }
+.mtavari{
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.barati{
+    width: 45%;
+    margin-right: 5%;
+    min-width: 500px;
+    height: 300px;
+    background: #fff;
+    position: relative;
+    border-radius: 5px;
+    padding: 20px;
+    background-image: url(img/download.jfif);
+    background-size: cover;
+}
+
+.barati::{
+
+}
