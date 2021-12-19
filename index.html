@@ -5,10 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>დაამზადე შენი ონლაინ ვიზიტკა</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500&family=Noto+Serif+Georgian&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<nav id="navbar" class="">
+  <div class="nav-wrapper">
+    <!-- Navbar Logo -->
+    <div class="logoBro">
+      <!-- Logo Placeholder for Inlustration -->
+      <a href="#home"><i class="fa fa-angellist"></i> VCC</a>
+    </div>
+
+    <!-- Navbar Links -->
+    <ul id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#logs">Updates log</a></li>
+      <li><a href="#info">Instructions</a></li>
+      <li><a href="#terms">Terms & Service</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- Menu Icon -->
+<div class="menuIcon">
+  <span class="icon icon-bars"></span>
+  <span class="icon icon-bars overlay"></span>
+</div>
+
+
+<div class="overlay-menu">
+  <ul id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#logs">Updates log</a></li>
+      <li><a href="#info">Instructions</a></li>
+      <li><a href="#terms">Terms & Service</a></li>
+    </ul>
+</div>
+    </header>
     <h1 class="satauri">შექმენი შენი ვირტუალური სავიზიტო<span> ბარათი უფასოდ</span></h1>
     <div class="mtavari">
         <div class="barati">
@@ -21,7 +59,7 @@
                 <input type="text" class="mail" maxlength="30" placeholder="შეიყვანეთ მეილი">
         </div>
         <div class="settings">
-            <input type="file" accept="*iamge" id="upload" hidden>
+            <input type="file" accept="*image" id="upload" hidden>
             <label for="upload" class="btn upl">ატვირთე შენი ლოგო</label>
             <div class="background">
                 <img src="img/download.jfif" class="active" alt="">
@@ -36,6 +74,7 @@
         </div>
     </div>
 
-    <script src="core.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/nav.js"></script>
 </body>
 </html>
