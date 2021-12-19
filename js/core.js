@@ -21,3 +21,12 @@ uploadBtn.addEventListener('change', () => {
 const bgs = document.querySelectorAll('.background img');
 const barati = document.querySelector('.barati');
 let activeBg = 0;
+
+bgs.forEach((item, i) => {
+    item.addEventListener('click', () =>{
+        bgs[activeBg].classList.remove('active');
+        item.classList.add('active');
+        barati.style.backgroundImage = `url('${item.src}')`;
+        activeBg = i;
+    })
+})
