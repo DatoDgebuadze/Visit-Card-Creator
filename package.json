@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DatoDgebuadze/Visit-Card-Creator.git"
+  },
+  "author": "DatoDgebuadze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DatoDgebuadze/Visit-Card-Creator/issues"
+  },
+  "homepage": "https://github.com/DatoDgebuadze/Visit-Card-Creator#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

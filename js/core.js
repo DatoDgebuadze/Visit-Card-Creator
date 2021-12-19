@@ -30,3 +30,20 @@ bgs.forEach((item, i) => {
         activeBg = i;
     })
 })
+
+//gadmowera
+
+let downloadBtn = document.querySelector('.download-btn');
+
+let exportCard = () => {
+    html2canvas(barati)
+    .then(canvas => {
+        let link = document.getElementById('link');
+        link.href = canvas.toDataURL();
+        link.click();
+    })
+}
+
+downloadBtn.addEventListener('click', () => {
+    exportCard();
+})
